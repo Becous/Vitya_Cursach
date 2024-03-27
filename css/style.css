@@ -1,11 +1,59 @@
 @import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Rubik+Spray+Paint&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
-.test {
+body {
   font-family: "Rubik";
-  font-weight: 800;
-  font-size: 48px;
+}
+
+a,
+li,
+ul {
+  list-style: none;
+  text-decoration: none;
 }
 
 .container {
   padding: 0px 135px;
   max-width: 1330px;
+}
+.container_header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.nav_list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 30px;
+}
+.nav_item {
+  color: black;
+}
+.nav_item a:hover, .nav_item a:focus {
+  color: #f0d800;
 }

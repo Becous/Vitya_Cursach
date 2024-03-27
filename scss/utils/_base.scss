@@ -1,5 +1,10 @@
-.test {
+body {
   font-family: "Rubik";
-  font-weight: 800;
-  font-size: 48px;
+}
+
+a,
+li,
+ul {
+  list-style: none;
+  text-decoration: none;
 }

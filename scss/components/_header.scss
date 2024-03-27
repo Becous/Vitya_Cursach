@@ -1,0 +1,20 @@
+.logo {
+  display: flex;
+  flex-direction: row;
+}
+
+.nav {
+  &_list {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+  }
+
+  &_item {
+    color: black;
+    & a:hover,
+    & a:focus {
+      color: $yellow;
+    }
+  }
+}
