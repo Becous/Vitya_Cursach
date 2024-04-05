@@ -1,5 +1,23 @@
-.test {
+body {
   font-family: "Rubik";
-  font-weight: 800;
-  font-size: 48px;
+  background-color: black;
+  overflow-x: hidden;
+}
+
+a,
+li,
+ul {
+  list-style: none;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin: 0;
 }

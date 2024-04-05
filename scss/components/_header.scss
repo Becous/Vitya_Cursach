@@ -1,0 +1,40 @@
+.logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 12px;
+  &_text {
+    color: $white;
+  }
+}
+
+.nav {
+  &_list {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+  }
+
+  &_item {
+    &-a {
+      color: $white;
+    }
+    & a:hover,
+    & a:focus {
+      color: $yellow;
+    }
+  }
+}
+
+.header {
+  padding-top: 16px;
+
+  &_button-box {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+  }
+  &_button {
+    @include button;
+  }
+}
