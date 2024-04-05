@@ -1,5 +1,7 @@
 body {
   font-family: "Rubik";
+  background-color: black;
+  overflow-x: hidden;
 }
 
 a,
@@ -7,4 +9,15 @@ li,
 ul {
   list-style: none;
   text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin: 0;
 }
