@@ -26,6 +26,10 @@
     &-text {
       font-size: 34px;
       text-wrap: nowrap;
+      &-yellow {
+        color: transparent;
+        -webkit-text-stroke: 1px $yellow;
+      }
     }
     &-img {
       width: 32px;

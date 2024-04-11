@@ -1,0 +1,48 @@
+.info {
+  padding-top: 120px;
+  padding-bottom: 120px;
+
+  &_container {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  &_title {
+    font-size: 60px;
+    &-box {
+      max-width: 670px;
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column;
+    }
+  }
+  &_little-text {
+    color: #ffffff99;
+    width: 524px;
+    line-height: 28px;
+  }
+  &_numbox {
+    display: flex;
+    flex-direction: column;
+    gap: 56px;
+  }
+  &_numreg {
+    &-text {
+      color: $yellow;
+      font-size: 80px;
+    }
+    &-desc {
+      margin-top: 25px;
+      font-size: 24px;
+    }
+  }
+  &_numcon {
+    &-text {
+      font-size: 80px;
+    }
+    &-desc {
+      margin-top: 25px;
+      font-size: 24px;
+    }
+  }
+}

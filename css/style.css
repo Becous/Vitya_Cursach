@@ -165,6 +165,10 @@ ul {
   font-size: 34px;
   text-wrap: nowrap;
 }
+.hero_line-text-yellow {
+  color: transparent;
+  -webkit-text-stroke: 1px #f0d800;
+}
 .hero_line-img {
   width: 32px;
   height: 32px;
@@ -215,6 +219,98 @@ ul {
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
+}
+
+.info {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.info_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+.info_title {
+  font-size: 60px;
+}
+.info_title-box {
+  max-width: 670px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.info_little-text {
+  color: rgba(255, 255, 255, 0.6);
+  width: 524px;
+  line-height: 28px;
+}
+.info_numbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 56px;
+}
+.info_numreg-text {
+  color: #f0d800;
+  font-size: 80px;
+}
+.info_numreg-desc {
+  margin-top: 25px;
+  font-size: 24px;
+}
+.info_numcon-text {
+  font-size: 80px;
+}
+.info_numcon-desc {
+  margin-top: 25px;
+  font-size: 24px;
+}
+
+.galery {
+  position: relative;
+}
+.galery_img {
+  width: 400px;
+  height: 260px;
+}
+.galery_button {
+  position: absolute;
+  bottom: -20px;
+  left: 50%;
+  background-color: #f0d800;
+  color: #010101;
+  padding: 26px 41px;
+  font-weight: 600;
+  border-radius: 100px;
+}
+.galery_imgbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 110%;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 40px;
 }
 
 .creators_line {
