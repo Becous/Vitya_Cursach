@@ -1,0 +1,32 @@
+.creators {
+  &-title {
+  }
+  &-box {
+  }
+  &-p {
+  }
+  &-button {
+  }
+}
+.creators_line {
+  transform: rotate(-1.7deg);
+  display: flex;
+  flex-direction: row;
+  background-color: $yellow;
+  justify-content: space-between;
+  width: 100%;
+  &-box {
+    gap: 12px;
+    padding: 12px;
+    display: flex;
+    font-size: 34px;
+    align-items: center;
+    color: $black;
+  }
+  &-img {
+    width: 32px;
+    height: 32px;
+  }
+  &-text {
+  }
+}

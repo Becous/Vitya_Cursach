@@ -216,3 +216,36 @@ ul {
       -ms-flex-align: start;
           align-items: flex-start;
 }
+
+.creators_line {
+  -webkit-transform: rotate(-1.7deg);
+          transform: rotate(-1.7deg);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  background-color: #f0d800;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+}
+.creators_line-box {
+  gap: 12px;
+  padding: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 34px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #010101;
+}
+.creators_line-img {
+  width: 32px;
+  height: 32px;
+}
