@@ -1,0 +1,36 @@
+.testimonial {
+  padding-top: 120px;
+  padding-bottom: 120px;
+  &_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  &_logo {
+    width: 190px;
+    height: 35px;
+    margin-bottom: 35px;
+  }
+  &_arrowbox {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+  }
+  &_arrowbox-right {
+    background-color: transparent;
+    transform: rotate(180deg);
+    border-color: transparent;
+  }
+  &_arrowbox-left {
+    background-color: transparent;
+    border-color: transparent;
+  }
+  &_text {
+    max-width: 895px;
+    text-align: center;
+    font-size: 24px;
+  }
+}

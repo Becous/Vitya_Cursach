@@ -1,11 +1,26 @@
 .creators {
-  &-title {
+  padding-top: 203px;
+  &_title {
+    font-size: 24px;
+    font-weight: 600;
+    color: $yellow;
   }
-  &-box {
+  &_box {
+    margin-bottom: 192px;
   }
-  &-p {
+  &_p {
+    margin-top: 16px;
+    max-width: 1168px;
+    font-size: 80px;
+    font-weight: 400;
   }
-  &-button {
+  &_button {
+    margin-top: 40px;
+    padding: 17px 34px;
+    border-radius: 100px;
+    background-color: $yellow;
+    border: 0px solid transparent;
+    cursor: pointer;
   }
 }
 .creators_line {
@@ -14,7 +29,7 @@
   flex-direction: row;
   background-color: $yellow;
   justify-content: space-between;
-  width: 100%;
+  width: 110%;
   &-box {
     gap: 12px;
     padding: 12px;

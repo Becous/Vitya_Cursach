@@ -13,6 +13,11 @@ ul {
   text-decoration: none;
 }
 
+a,
+button {
+  cursor: pointer;
+}
+
 h1,
 h2,
 h3,
@@ -296,6 +301,8 @@ ul {
   padding: 26px 41px;
   font-weight: 600;
   border-radius: 100px;
+  border: 0px solid transparent;
+  cursor: pointer;
 }
 .galery_imgbox {
   display: -webkit-box;
@@ -313,6 +320,32 @@ ul {
   gap: 40px;
 }
 
+.creators {
+  padding-top: 203px;
+}
+.creators_title {
+  font-size: 24px;
+  font-weight: 600;
+  color: #f0d800;
+}
+.creators_box {
+  margin-bottom: 192px;
+}
+.creators_p {
+  margin-top: 16px;
+  max-width: 1168px;
+  font-size: 80px;
+  font-weight: 400;
+}
+.creators_button {
+  margin-top: 40px;
+  padding: 17px 34px;
+  border-radius: 100px;
+  background-color: #f0d800;
+  border: 0px solid transparent;
+  cursor: pointer;
+}
+
 .creators_line {
   -webkit-transform: rotate(-1.7deg);
           transform: rotate(-1.7deg);
@@ -327,7 +360,7 @@ ul {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  width: 100%;
+  width: 110%;
 }
 .creators_line-box {
   gap: 12px;
@@ -344,6 +377,59 @@ ul {
 .creators_line-img {
   width: 32px;
   height: 32px;
+}
+
+.testimonial {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.testimonial_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.testimonial_logo {
+  width: 190px;
+  height: 35px;
+  margin-bottom: 35px;
+}
+.testimonial_arrowbox {
+  margin-top: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 24px;
+}
+.testimonial_arrowbox-right {
+  background-color: transparent;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+  border-color: transparent;
+}
+.testimonial_arrowbox-left {
+  background-color: transparent;
+  border-color: transparent;
+}
+.testimonial_text {
+  max-width: 895px;
+  text-align: center;
+  font-size: 24px;
 }
 
 .app_container {
@@ -367,6 +453,7 @@ ul {
 }
 .app_title {
   font-size: 80px;
+  margin-top: 24px;
 }
 .app_p {
   margin-top: 16px;
@@ -413,4 +500,92 @@ ul {
 .logo_text-app {
   font-size: 24px;
   color: #010101;
+}
+
+.footer {
+  padding-top: 120px;
+  padding-bottom: 60px;
+}
+.footer_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.footer_linkbox-link {
+  color: #f5f5f5;
+}
+.footer_linkbox-linkbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.footer_linkbox-title {
+  font-size: 60px;
+  max-width: 510px;
+  font-weight: 600px;
+  margin-bottom: 24px;
+}
+.footer_linkbox-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 37px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.footer_name {
+  color: #787878;
+  font-size: 14px;
+}
+
+.form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.form_label {
+  font-size: 14px;
+  max-width: 314px;
+}
+.form_input {
+  margin-top: 12px;
+  margin-bottom: 40px;
+  width: 301px;
+  padding: 12px;
+  border: 0px;
+  border-bottom: #f0d800 1px solid;
+  background-color: transparent;
+}
+.form_linkbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 30px;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+.form_link {
+  font-size: 14px;
 }
